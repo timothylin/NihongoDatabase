@@ -64,5 +64,7 @@
     <Build Include="Tables\Vocabulary.sql" />
     <None Include="Migration\Migration-Vocabulary.sql" />
     <PostDeploy Include="Migration\Migration-Post-Release.sql" />
+    <Build Include="Stored Procedures\usp_GetAllVocabularies.sql" />
+    <Build Include="Stored Procedures\usp_GetVocabularyById.sql" />
   </ItemGroup>
 </Project>
